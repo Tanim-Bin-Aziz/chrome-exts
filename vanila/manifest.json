@@ -3,6 +3,7 @@
   "name": "Screenshot Extension",
   "version": "1.0.0",
   "description": "Take a screenshot of the current page.",
+  "permissions": ["activeTab", "tabs"],
   "action": {
     "default_popup": "index.html"
   },
