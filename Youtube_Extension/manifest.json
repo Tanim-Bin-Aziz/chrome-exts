@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Controller",
+  "version": "1.0",
+  "description": "Control YouTube video",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo1.png"
+  },
+  "host_permissions": ["https://www.youtube.com/*"]
+}
