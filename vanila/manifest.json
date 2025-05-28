@@ -1,5 +1,8 @@
 {
   "manifest_version": 3,
   "name": "test Extension",
+  "icons": {
+    "32": "logo1.png"
+  },
   "version": "1.0.0"
 }
