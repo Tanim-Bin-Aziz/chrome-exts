@@ -4,5 +4,12 @@
   "icons": {
     "32": "logo1.png"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "service_worker.js",
+    "type": "module"
+  },
+  "action": {},
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"]
 }
